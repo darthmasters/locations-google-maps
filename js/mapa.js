@@ -15,6 +15,7 @@ function setMarkers(locations) {
         var marker = new google.maps.Marker({
             position: myLatLng,
             map: map,
+            icon: "images/pin.png",
             animation: google.maps.Animation.DROP,
             title: beach[0],
             zIndex: 8
